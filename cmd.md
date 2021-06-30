@@ -32,6 +32,8 @@ test -d PATH TO DIR && echo 'TRUE' || echo 'FALSE'
 
 ```
 stat PATH -c '%a'
+
+644
 ```
 
 

@@ -28,5 +28,10 @@ test -f PATH TO FILE && echo 'TRUE' || echo 'FALSE'
 ```
 test -d PATH TO DIR && echo 'TRUE' || echo 'FALSE'
 ```
+### Finding the file (directory) permission
+
+```
+stat PATH -c '%a'
+```
 
 

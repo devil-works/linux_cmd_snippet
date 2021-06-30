@@ -13,5 +13,5 @@ test -f PATH TO FILE
 ### Verifying the directory existence
 
 ```
-test -f PATH TO DIR
+test -d PATH TO DIR
 ```

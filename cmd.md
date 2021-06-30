@@ -15,3 +15,18 @@ test -f PATH TO FILE
 ```
 test -d PATH TO DIR
 ```
+
+
+### Verifying the file existence and echo the result(Boolean value)
+
+```
+test -f PATH TO FILE && echo 'TRUE' || echo 'FALSE'
+```
+
+### Verifying the directory existence andecho the result(Boolean value)
+
+```
+test -d PATH TO DIR && echo 'TRUE' || echo 'FALSE'
+```
+
+

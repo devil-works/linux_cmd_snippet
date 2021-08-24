@@ -4,31 +4,31 @@
 du -sh ./
 ```
 
-### Verifying the file existence
+### Verify the file existence
 
 ```
 test -f PATH TO FILE
 ```
 
-### Verifying the directory existence
+### Verify the directory existence
 
 ```
 test -d PATH TO DIR
 ```
 
 
-### Verifying the file existence and echo the result(Boolean value)
+### Verify the file existence and echo the result(Boolean value)
 
 ```
 test -f PATH TO FILE && echo 'TRUE' || echo 'FALSE'
 ```
 
-### Verifying the directory existence andecho the result(Boolean value)
+### Verify the directory existence andecho the result(Boolean value)
 
 ```
 test -d PATH TO DIR && echo 'TRUE' || echo 'FALSE'
 ```
-### Finding the file (directory) permission
+### Find the file (directory) permission
 
 ```
 stat PATH -c '%a'
@@ -36,4 +36,12 @@ stat PATH -c '%a'
 644
 ```
 
+### Find the file name which has specified word
 
+```
+grep -ril "SOMETHING WORD" [dir]
+
+
+    ex.) grep -ril "foo" .
+
+```

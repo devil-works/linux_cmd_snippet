@@ -50,9 +50,31 @@ grep -ril "SOMETHING WORD" [dir]
 ### Find the file name which has specified word and output results to a file.
 
 ```
-grep -ril "SOMETHING WORD" [dir] > file
+grep -ril "SOMETHING WORD" [DIR] > [FILE]
 
 
-    ex.) grep -ril "foo" . > hogehoge.txt
+ex.) grep -ril "foo" . > hogehoge.txt
+
+```
+
+### Output results to a file. (Overwrite mode)
+
+```
+[something cmd] > [FILE]
+
+
+
+echo Hello World! > foo.txt
+
+cat foo.txt
+
+Hello World!
+
+
+echo Oh shit! > foo.txt
+
+cat foo.txt
+
+Oh shit!
 
 ```

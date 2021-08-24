@@ -45,3 +45,14 @@ grep -ril "SOMETHING WORD" [dir]
     ex.) grep -ril "foo" .
 
 ```
+
+
+### Find the file name which has specified word and output results to a file.
+
+```
+grep -ril "SOMETHING WORD" [dir] > file
+
+
+    ex.) grep -ril "foo" . > hogehoge.txt
+
+```

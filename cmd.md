@@ -53,6 +53,13 @@ $ grep -ril "SOMETHING WORD" [DIR] > [FILE]
 ex.) grep -ril "foo" . > hogehoge.txt
 ```
 
+### Find jpg files (Current dir)
+
+```
+$ find . -name "*.jpeg" -type f | gawk -F/ '{print $NF}'
+```
+
+
 ### Output results to a file. (Overwrite mode)
 
 ```
